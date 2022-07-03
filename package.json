@@ -10,15 +10,10 @@
   "engines": {
     "node": ">=12.x"
   },
-  "author": "Ilja Nevolin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inevolin/DiscordEarsBot.git"
+    "url": "git+https://github.com/Yejuse/VoicePunishment.git"
   },
-  "bugs": {
-    "url": "https://github.com/inevolin/DiscordEarsBot/issues"
-  },
-  "homepage": "https://github.com/inevolin/DiscordEarsBot#readme",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.7.0",
