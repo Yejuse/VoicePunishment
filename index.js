@@ -176,6 +176,8 @@ const guildMap = new Map();
 
 discordClient.on('message', async (msg) => {
     try {
+      console.log(msg);
+      console.log(msg.content);
         if (!('guild' in msg) || !msg.guild) return; // prevent private messages to bot
         const mapKey = msg.guild.id;
         if (msg.content.trim().toLowerCase() == _CMD_JOIN) {
