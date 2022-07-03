@@ -160,6 +160,7 @@ if (process.env.DEBUG)
 discordClient.on('ready', () => {
     console.log(`Logged in as ${discordClient.user.tag}!`)
 })
+console.log(`Token :${DISCORD_TOK}`)
 discordClient.login(DISCORD_TOK)
 
 const PREFIX = '*';
